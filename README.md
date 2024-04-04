@@ -9,8 +9,7 @@ I learnt about debugging this [code base](https://github.com/alx-tools/0x00-Fix_
 ## Files
 
 > Each file contains the solution to a task in the project.
-
-- [ ] [0-fizzbuzz.py](https://github.com/Ebube-Ochemba/Fix_My_Code_Challenge/blob/master/0-fizzbuzz.py): My correction (Order of operation).
+- [x] [0-fizzbuzz.py](https://github.com/Ebube-Ochemba/Fix_My_Code_Challenge/blob/master/0-fizzbuzz.py): My correction (Order of operation).
 - [ ] [1-print_square.js](https://github.com/Ebube-Ochemba/Fix_My_Code_Challenge/blob/master/1-print_square.js): My correction.
 - [ ] [2-sort.rb](https://github.com/Ebube-Ochemba/Fix_My_Code_Challenge/blob/master/2-sort.rb): My correction.
 - [ ] [3-user.py](https://github.com/Ebube-Ochemba/Fix_My_Code_Challenge/blob/master/3-user.py): My correction.
