@@ -5,9 +5,9 @@
 
 ## Description
 
-In this repository, each folder illustrates an essential concept of debugging.
-"`Fix my code` is a new type of project, where we’ll jump into an existing code base and fix it!."
-Sometimes you will know the language, sometimes not.
+In this repository, each folder illustrates different debugging challenges.
+- "`Fix my code` is a new type of project, where we’ll jump into an existing code base and fix it!."
+- "Sometimes you will know the language, sometimes not."
 
 ## List of Projects
 
