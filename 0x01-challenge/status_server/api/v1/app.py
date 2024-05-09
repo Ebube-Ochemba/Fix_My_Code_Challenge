@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-Web server 
+Web server
 """
 from api.v1.views import app_views
 from flask import Flask, jsonify, make_response
@@ -14,7 +14,12 @@ def not_found(error):
     """ json 404 page """
     return make_response(jsonify({"error": "Not found"}), 404)
 
+@app.route('/api/v1/status', methods=['GET'])
+def api_status():
+    """Returns the status of the API"""
+    return jsonify({"status": "OK"})
+
 
 if __name__ == "__main__":
-    # python -m api.v1.app 
+    # python -m api.v1.app
     app.run(host="0.0.0.0", port=5000)
