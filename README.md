@@ -1,7 +1,6 @@
 # Fix My Code Challenge
 
 > This repository contains programs written for the Debugging track at Alx.
-> It covers different types of debugging concepts.
 
 ## Description
 
