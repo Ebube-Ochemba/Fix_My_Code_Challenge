@@ -11,8 +11,7 @@ In this repository, each folder illustrates different debugging challenges.
 ## List of Projects
 
 - [0x00. Fix my code](https://github.com/Ebube-Ochemba/Fix_My_Code_Challenge/tree/main/0x00-challenge)
-- [0x01. Fix my code]()
-- []()
+- [0x01. Fix my code](https://github.com/Ebube-Ochemba/Fix_My_Code_Challenge/tree/main/0x01-challenge)
 
 
 ## Environment

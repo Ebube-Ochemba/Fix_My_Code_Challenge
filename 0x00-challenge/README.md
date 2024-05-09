@@ -1,6 +1,6 @@
 # 0x00. Fix my code
 
-> This project was fixing an existing code base.
+> This project was about fixing an existing code base.
 
 ## Summary
 
