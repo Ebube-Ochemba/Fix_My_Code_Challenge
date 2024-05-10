@@ -8,9 +8,15 @@ define a class Square
 class Square():
     """A class Square"""
 
-    def __init__(self, *args, **kwargs):
-        for key, value in kwargs.items():
-            setattr(self, key, value)
+    def __init__(self, width, height):
+        """
+        Parameters:
+        -----------
+        width: int
+        height: int
+        """
+        self.width = width
+        self.height = height
 
     def area_of_my_square(self):
         """ Area of the square """
@@ -35,5 +41,5 @@ if __name__ == "__main__":
 
 # step 1: class - Square, not square
 # step 2: Add docs where necessary
-# step 3: remove *arg and **kwargs - it's a class not a function*
+# step 3: remove *arg and **kwargs - it's a class not a function
 # step 4: pycodestyle checks
