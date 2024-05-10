@@ -6,17 +6,23 @@ define a class Square
 
 
 class Square():
-    """A class Square"""
-
-    def __init__(self, width, height):
-        """
-        Parameters:
-        -----------
+    """
+    Parameters:
         width: int
         height: int
-        """
-        self.width = width
-        self.height = height
+    Methods:
+        area()
+        PermiterOfMySquare()
+        str()
+    """
+
+    width = 0
+    heigth = 0
+
+    def __init__(self, *args, **kwargs):
+        """ initialize an instance of class """
+        for key, value in kwargs.items():
+            setattr(self, key, value)
 
     def area_of_my_square(self):
         """ Area of the square """
@@ -24,11 +30,11 @@ class Square():
 
     def PermiterOfMySquare(self):
         """ Perimeter of square """
-        return (self.width * 4)
+        return (self.width * 2) + (self.height * 2)
 
     def __str__(self):
         """ Description of square: string representation """
-        return "{}/{}".format(self.width, self.width)
+        return "{}/{}".format(self.width, self.height)
 
 
 if __name__ == "__main__":
@@ -41,6 +47,6 @@ if __name__ == "__main__":
 
 # step 1: class - Square, not square
 # step 2: Add docs where necessary
-# step 3: remove *arg and **kwargs - it's a class not a function
+# step 3: xx
 # step 4: correct perimeter calculation parameter
 # step 5: pycodestyle checks
