@@ -48,5 +48,5 @@ if __name__ == "__main__":
 # step 1: class - Square, not square
 # step 2: Add docs where necessary
 # step 3: xx
-# step 4: correct perimeter calculation parameter
+# step 4: correct perimeter calculation perimeter
 # step 5: pycodestyle checks
