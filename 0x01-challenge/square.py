@@ -28,7 +28,7 @@ class Square():
         """ Area of the square """
         return self.width * self.width
 
-    def PermiterOfMySquare(self):
+    def permiter_of_my_square(self):
         """ Perimeter of square """
         return (self.width * 2) + (self.height * 2)
 
@@ -47,6 +47,6 @@ if __name__ == "__main__":
 
 # step 1: class - Square, not square
 # step 2: Add docs where necessary
-# step 3: xx
+# step 3: snake_case naming convention
 # step 4: correct perimeter calculation perimeter
 # step 5: pycodestyle checks
