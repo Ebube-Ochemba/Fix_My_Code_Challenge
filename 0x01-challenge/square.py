@@ -1,26 +1,39 @@
 #!/usr/bin/python3
 
 """square
-define a class Square
+Define a class Square
 """
 
 
 class Square():
-    """
-    Parameters:
-        width: int
-        height: int
-    Methods:
-        area()
-        PermiterOfMySquare()
+    """Define a class Square
+    ...
+
+    Attributes
+    ----------
+        width : int
+        height : int
+
+    Methods
+    -------
+        area_of_my_square()
+            Calculates the area of the square
+        Permiter_of_my_square()
+            Calculates the perimeter of the square
         str()
+            Prints a string representation of the square
     """
 
     width = 0
     heigth = 0
 
     def __init__(self, *args, **kwargs):
-        """ initialize an instance of class """
+        """Initialize an instance of class
+        Parameters
+        ----------
+        width : int
+        height : int
+        """
         for key, value in kwargs.items():
             setattr(self, key, value)
 
