@@ -24,18 +24,15 @@ class Square():
             Prints a string representation of the square
     """
 
-    width = 0
-    heigth = 0
-
-    def __init__(self, *args, **kwargs):
+    def __init__(self, width=0, height=0):
         """Initialize an instance of class
         Parameters
         ----------
         width : int
         height : int
         """
-        for key, value in kwargs.items():
-            setattr(self, key, value)
+        self.width = width
+        self.height = height
 
     def area_of_my_square(self):
         """ Area of the square """
