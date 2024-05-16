@@ -18,7 +18,7 @@ class Square():
     -------
         area_of_my_square()
             Calculates the area of the square
-        Permiter_of_my_square()
+        permiter_of_my_square()
             Calculates the perimeter of the square
         str()
             Prints a string representation of the square
