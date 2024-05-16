@@ -1,7 +1,9 @@
 #!/usr/bin/python3
-""" 
+
+"""
 User class
 """
+
 
 class User():
     """ Documentation """
@@ -21,10 +23,13 @@ class User():
     def email(self):
         """ Documentation """
         return self.__email
-   
-    
+
+
 if __name__ == "__main__":
 
     u = User()
     u.email = "john@snow.com"
     print(u.email)
+
+
+# step 1: pycodestyle checks
