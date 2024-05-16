@@ -12,17 +12,17 @@ class User():
         """ Documentation """
         self.__email = None
 
+    @property
+    def email(self):
+        """ Documentation """
+        return self.__email
+
     @email.setter
     def email(self, value):
         """ Documentation """
         if type(value) is not str:
             raise TypeError("email must be a string")
         self.__email = value
-
-    @property
-    def email(self):
-        """ Documentation """
-        return self.__email
 
 
 if __name__ == "__main__":
@@ -33,3 +33,4 @@ if __name__ == "__main__":
 
 
 # step 1: pycodestyle checks
+# step 2: correct "@property" syntax and order
